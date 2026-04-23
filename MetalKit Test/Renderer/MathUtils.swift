@@ -25,8 +25,11 @@ func makeLookAt(eye: SIMD3<Float>, center: SIMD3<Float>, up: SIMD3<Float> = [0, 
     ))
 }
 
-func makeModelMatrix(position: SIMD3<Float>, rotation: simd_quatf) -> float4x4 {
+func makeModelMatrix(position: SIMD3<Float>, rotation: simd_quatf, scale: Float = 1) -> float4x4 {
     var m = float4x4(rotation)
+    m.columns.0 *= scale
+    m.columns.1 *= scale
+    m.columns.2 *= scale
     m.columns.3 = SIMD4(position.x, position.y, position.z, 1)
     return m
 }

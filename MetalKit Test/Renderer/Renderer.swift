@@ -169,7 +169,7 @@ final class Renderer: NSObject, MTKViewDelegate {
                   let rot       = world.rotations[id],
                   let renderable = world.renderables[id] else { continue }
 
-            let model = makeModelMatrix(position: pos.value, rotation: rot.value)
+            let model = makeModelMatrix(position: pos.value, rotation: rot.value, scale: renderable.scale)
             var obj   = ObjectUniforms(model: model,
                                        normalMatrix: makeNormalMatrix(from: model),
                                        color: renderable.color)

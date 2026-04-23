@@ -14,5 +14,5 @@ func makeRotatingObject(
     world.rotations[id]      = RotationComponent()
     world.rotationSpeeds[id] = RotationSpeedComponent(x: rotationSpeed.x, y: rotationSpeed.y, z: rotationSpeed.z)
     world.bounces[id]        = BounceComponent(boundary: 10.0, halfSize: size / 2.0)
-    world.renderables[id]    = RenderableComponent(color: color)
+    world.renderables[id]    = RenderableComponent(color: color, scale: size)
 }
