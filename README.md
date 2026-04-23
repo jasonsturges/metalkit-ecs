@@ -2,6 +2,8 @@
 
 A 3D scene built on Apple's Metal GPU API using a custom Entity Component System (ECS) architecture.
 
+<img width="900" height="632" alt="Screenshot 2026-04-23 at 12 33 24 AM" src="https://github.com/user-attachments/assets/c0ca4148-1f49-4098-9c25-3f672c08e841" />
+
 ## What It Is
 
 Six rotating cubes — five colored outer cubes in a circular pattern, one larger central red cube — bouncing within a bounded space. A reference grid and wireframe bounding box are drawn as real line primitives. An auto-orbiting camera with drag-to-control and scroll-to-zoom completes the scene.
