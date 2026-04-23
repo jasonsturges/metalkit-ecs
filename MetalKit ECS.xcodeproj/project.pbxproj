@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		1EC7B9B02F99D05100D28214 /* MetalKit Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MetalKit Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC7B9B02F99D05100D28214 /* MetalKit ECS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MetalKit ECS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1EC7B9B22F99D05100D28214 /* MetalKit Test */ = {
+		1EC7B9B22F99D05100D28214 /* MetalKit ECS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "MetalKit Test";
+			path = "MetalKit ECS";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		1EC7B9A72F99D05100D28214 = {
 			isa = PBXGroup;
 			children = (
-				1EC7B9B22F99D05100D28214 /* MetalKit Test */,
+				1EC7B9B22F99D05100D28214 /* MetalKit ECS */,
 				1EC7B9B12F99D05100D28214 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		1EC7B9B12F99D05100D28214 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1EC7B9B02F99D05100D28214 /* MetalKit Test.app */,
+				1EC7B9B02F99D05100D28214 /* MetalKit ECS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1EC7B9AF2F99D05100D28214 /* MetalKit Test */ = {
+		1EC7B9AF2F99D05100D28214 /* MetalKit ECS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EC7B9BB2F99D05200D28214 /* Build configuration list for PBXNativeTarget "MetalKit Test" */;
+			buildConfigurationList = 1EC7B9BB2F99D05200D28214 /* Build configuration list for PBXNativeTarget "MetalKit ECS" */;
 			buildPhases = (
 				1EC7B9AC2F99D05100D28214 /* Sources */,
 				1EC7B9AD2F99D05100D28214 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1EC7B9B22F99D05100D28214 /* MetalKit Test */,
+				1EC7B9B22F99D05100D28214 /* MetalKit ECS */,
 			);
-			name = "MetalKit Test";
+			name = "MetalKit ECS";
 			packageProductDependencies = (
 			);
 			productName = "MetalKit Test";
-			productReference = 1EC7B9B02F99D05100D28214 /* MetalKit Test.app */;
+			productReference = 1EC7B9B02F99D05100D28214 /* MetalKit ECS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1EC7B9AB2F99D05100D28214 /* Build configuration list for PBXProject "MetalKit Test" */;
+			buildConfigurationList = 1EC7B9AB2F99D05100D28214 /* Build configuration list for PBXProject "MetalKit ECS" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1EC7B9AF2F99D05100D28214 /* MetalKit Test */,
+				1EC7B9AF2F99D05100D28214 /* MetalKit ECS */,
 			);
 		};
 /* End PBXProject section */
@@ -312,7 +312,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EC7B9AB2F99D05100D28214 /* Build configuration list for PBXProject "MetalKit Test" */ = {
+		1EC7B9AB2F99D05100D28214 /* Build configuration list for PBXProject "MetalKit ECS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EC7B9B92F99D05200D28214 /* Debug */,
@@ -321,7 +321,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1EC7B9BB2F99D05200D28214 /* Build configuration list for PBXNativeTarget "MetalKit Test" */ = {
+		1EC7B9BB2F99D05200D28214 /* Build configuration list for PBXNativeTarget "MetalKit ECS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EC7B9BC2F99D05200D28214 /* Debug */,
